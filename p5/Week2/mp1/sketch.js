@@ -5,6 +5,10 @@ function setup() {
   ellipseMode(CENTER) ;
 }
 
+function preload() {
+
+}
+
 function draw() {
   // put drawing code here
   background(100) ;
