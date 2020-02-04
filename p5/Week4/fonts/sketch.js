@@ -1,7 +1,7 @@
 var ser ;
 
 function preload() {
-    ser = loadFont("assets/serenity.otf") ;
+    ser = loadFont("assets/cubic.ttf") ;
 
 }
 function setup() {
