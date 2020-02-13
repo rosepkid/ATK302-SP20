@@ -4,7 +4,8 @@ var ninja;
 
 function setup() {
   // put setup code here
-  createCanvas(800, 800) ;
+  createCanvas(windowWidth, windowHeight) ;
+  imageMode(CENTER) ;
 
   blue = loadImage("assets/blue.jpg");
   capo = loadImage("assets/capoeirista.jpg");
@@ -13,8 +14,8 @@ function setup() {
 
 function draw() {
   // put drawing code here
-  image(blue, 0, 0, 200, 200) ;
-  image(capo, 0, 200, 200, 200) ;
-  image(ninja, 0, 400, 200, 200) ;
+  image(blue, width/2, 0, 200, 200) ;
+  image(capo, width/2, 200, 200, 200) ;
+  image(ninja, width/2, 400, 200, 200) ;
 
 }
