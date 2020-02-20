@@ -1,7 +1,5 @@
 var state;
 
-
-
 function setup() {
   // put setup code here
   createCanvas(800, 800);
@@ -14,7 +12,7 @@ function Draw() {
 
   switch (state) {
     case 0;
-    Background('255, 0, 0');
+    background(255, 0, 0);
     fill('white');
     textSize(100);
     text("case 0", width / 2, 100);
