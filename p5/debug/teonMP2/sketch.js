@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   // put drawing code here
-textSize(24) ;
+textSize(24) ;2
 text("hello!", 100, 100) ;
 
 }

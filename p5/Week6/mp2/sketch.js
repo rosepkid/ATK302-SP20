@@ -17,14 +17,14 @@ function draw() {
     timer++ ;
     if (timer > 200) {
       myState = 1 ;
-      timer = 0 ; 
+      timer = 0 ;
     }
 
     break ;
 
     case 1:
     background('green');
-    text("I'm in state 1", 100, 100) ;
+    text('I\'m in "state" 1', 100, 100, 600, 600) ;
     break ;
 
     case 2:
