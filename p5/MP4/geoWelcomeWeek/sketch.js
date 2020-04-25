@@ -9,7 +9,7 @@ var reggieImg;
 
 function preload() {
   locationData = getCurrentPosition();
-  reggieImg = loadImage('assets/reggiePlaceholder.jpeg');
+  reggieImg = loadImage('assets/reggieImg.jpg');
   // TURN "reggieImg;" into "reggieImg = [];" to create an array of different images
   //reggieImg = loadImage('assets/reggiePlaceholder.jpeg'); //these will change to images of pics in front of the buildings for welcome week
   //reggieImg[2] = loadImage('assets/reggiePlaceholder.jpeg');
