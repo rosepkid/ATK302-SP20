@@ -1,4 +1,4 @@
-// Spring 2019 Curtis Stieger worked on this
+// Spring 2019 Curtis Stieger's group worked on this
 
 var fence;
 var locationData;
@@ -20,6 +20,7 @@ function setup() {
   createCanvas(displayWidth, displayHeight);
   num = 0;
   intervalCurrentPosition(positionPing, 5000);
+  places.push(new Place(40.47859881213726, -88.96815846900026, "Emily's Room", .02, reggieImg)); // new Place object, for CVA room 17
   places.push(new Place(40.47859881213726, -88.96815846900026, "Rose's Room", .02, reggieImg)); // new Place object, for CVA room 17
 
   places.push(new Place(40.50622797365503, -88.99051350503431, "CVA 17", .02, reggieImg)); // new Place object, for CVA room 17

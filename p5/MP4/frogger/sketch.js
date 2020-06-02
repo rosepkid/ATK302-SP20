@@ -73,24 +73,24 @@ function mouseReleased() {
 }
 
 // car class!!
-function Car() {
-  // attributes
+class Car {
+  constructor( ) {
   this.pos = createVector(100, 100);
   this.vel = createVector(random(-5, 5), random(-5, 5));
   this.r = random(255);
   this.g = random(255);
   this.b = random(255);
-
+}
 
   // methods
-  this.display = function() {
+  display = function() {
     fill(this.r, this.g, this.b);
     rect(this.pos.x, this.pos.y, 100, 50);
     ellipse(this.pos.x - 45, this.pos.y + 25, 50, 50);
     ellipse(this.pos.x + 45, this.pos.y + 25, 50, 50);
   }
 
-  this.drive = function() {
+  drive = function() {
     this.pos.add(this.vel);
 
     if (this.pos.x > width) this.pos.x = 0;
